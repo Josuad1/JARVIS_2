@@ -55,7 +55,7 @@ def main():
             talk(f'Reproduciendo {song}')
             pywhatkit.playonyt(song)
     except Exception as e:
-        talk(f"lo siento no entendi: {e}")
+        talk(f"Error : {e}")
         print(e)
 
 if __name__ == '__main__':
